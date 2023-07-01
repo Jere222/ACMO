@@ -1,0 +1,21 @@
+.navbarCategoriasDark {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    width: 100%;
+    background-color: #D8B66C;
+    a {
+        color: rgb(16, 16, 16);
+    }
+}
+
+.navbarCategoriasLight {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    width: 100%;
+    background-color: #365136;
+    a {
+        color: rgb(227, 227, 227);
+    }
+}

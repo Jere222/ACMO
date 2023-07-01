@@ -1,0 +1,88 @@
+.divHome {
+    width: 100%;
+    min-height: 90vh;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 10rem;
+        border-radius: 200px;
+        box-shadow: 5px 5px 5px black;
+    }
+    .divGrid {
+        display: grid;
+        width: 50rem;
+        grid-template-rows: 7rem 7rem 7rem;
+        grid-template-columns: 60% 40%;
+        grid-template-areas:
+        "main img1"
+        "main img2"
+        "main img3";
+        text-align: right;
+        
+        h2, p {
+            background-color: rgb(27, 104, 32);
+            color: aliceblue;
+            border-radius: 5px;
+            padding: 4px;
+            position: relative;
+            top: 0.6rem;
+        }
+        .cuadroPrinc {
+            grid-area: main;
+            background-image: url("https://i.ibb.co/gDw6qBk/image.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: flex-end;
+            padding: 1rem;
+            h2{ 
+                position: relative;
+                top: 0.9rem;
+            }
+        }
+
+        .cuadrito1 {
+            grid-area: img1;
+            background-image: url("https://i.ibb.co/1vVrqB3/image.png");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: flex-end;
+            padding: 1rem
+        }
+        
+        .cuadrito2 {
+            grid-area: img2;
+            background-image: url("https://i.ibb.co/Ytxm1JY/image.png");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: flex-end;
+            padding: 1rem
+        }
+        .cuadrito3 {
+            grid-area: img3;
+            background-image: url("https://i.ibb.co/y08gB5b/image.png");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: flex-end;
+            padding: 1rem
+        }
+        a:hover {
+            transform: scale(1.05);
+            border-style: solid;
+            border-color: aliceblue;
+        }
+    }
+
+}

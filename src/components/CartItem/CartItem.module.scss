@@ -1,0 +1,36 @@
+.divCartItem {
+    background-color: rgb(159, 159, 159);
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    height: 8rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .divTexto{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        position: relative;
+        right: 2rem;
+        h6 {
+            position: relative;
+            bottom: 0.5rem;
+        }
+    }
+
+    img{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 10px;
+    }
+
+    .cant{
+        display: flex;
+        gap: 5px;
+        a{
+            color: rgb(21, 21, 21);
+        }
+    }
+}

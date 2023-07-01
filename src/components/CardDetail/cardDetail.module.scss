@@ -1,0 +1,156 @@
+.divDetalleDark {
+    margin: 6rem 0;
+    display: flex;
+    justify-content: center;
+    
+    .imgDetail {
+        background-color: rgb(15, 15, 15);
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        height: 24rem;
+        width: 20rem;
+        padding-left: 2rem;
+        border-radius: 25px;
+        z-index: 0;
+        img {
+            width: 13rem;
+            height: 18rem;
+            border-radius: 20px;
+        }    
+    }
+
+    .textDetail {
+        position: relative;
+        bottom: 0.5rem;
+        right: 4rem;
+        color: rgb(49, 49, 49);
+        background-color: rgb(218, 158, 69);
+        padding: 3rem 2rem;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 20rem;
+        height: 25rem;
+        z-index: 1;
+
+        .descripcion{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            h3{
+                text-align: left;
+            }
+            h4{
+                text-align: center;
+                background-color: rgb(219, 171, 99);
+                min-height: 5rem;
+                display: flex;
+                align-items: center;
+            }
+        }
+        
+        .precioBtn{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            a{
+            text-decoration: none;
+            p{
+                padding: 10px 5px;
+                background-color: rgb(26, 26, 26);
+                width: 10rem;
+                border-radius: 10px;
+                text-align: center;
+            }
+        
+            p:hover {
+                background-color: rgb(40, 40, 40);
+            }
+        }
+
+    }
+}
+    
+    
+}
+
+.divDetalleLight {
+    margin: 6rem 0;
+    display: flex;
+    justify-content: center;
+
+    .imgDetail {
+        background-color: rgb(116, 116, 116);
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        height: 24rem;
+        width: 20rem;
+        padding-left: 2rem;
+        border-radius: 25px;
+        z-index: 0;
+        img {
+            width: 13rem;
+            height: 18rem;
+            border-radius: 20px;
+        }    
+    }
+
+    .textDetail {
+        position: relative;
+        bottom: 0.5rem;
+        right: 4rem;
+        color: rgb(37, 37, 37);
+        background-color: rgb(230, 230, 230);
+        border: solid 1px rgb(149, 149, 149);
+        padding: 3rem 2rem;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 20rem;
+        height: 25rem;
+        z-index: 1;
+
+        .descripcion{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            h3{
+                text-align: left;
+            }
+            h4{
+                text-align: center;
+                background-color: rgb(194, 194, 194);
+                min-height: 5rem;
+                display: flex;
+                align-items: center;
+            }
+        }
+        
+        .precioBtn{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            a{
+            text-decoration: none;
+            p{
+                padding: 10px 5px;
+                background-color: rgb(17, 122, 57);
+                width: 10rem;
+                border-radius: 10px;
+                text-align: center;
+            }
+        
+            p:hover {
+                background-color: rgb(0, 78, 30);
+            }
+        }
+
+    }
+}
+}

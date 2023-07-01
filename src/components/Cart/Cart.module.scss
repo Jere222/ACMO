@@ -1,0 +1,44 @@
+.divNohay {
+    min-height: 60vh;
+    width: 66%;
+    background-color: rgb(103, 103, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    border-radius: 20px;
+}
+
+.divCarrito {
+    min-height: 60vh;
+    width: 66%;
+    background-color: rgb(103, 103, 103);
+    padding: 2rem 4rem;
+    margin-top: 5rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+
+    h2{
+        padding-bottom: 15px;
+        border-bottom: solid 2px rgb(157, 157, 157);;
+        text-align: center;
+        width: 100%;
+    }
+    .btnsCarrito {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        font-size: 20px;
+        a {
+            padding: 10px;
+            background-color: rgb(37, 37, 37);
+            color: rgb(192, 192, 192);
+            border-radius: 15px;
+        }
+    }
+}
